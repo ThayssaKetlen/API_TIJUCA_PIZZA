@@ -1,0 +1,36 @@
+{
+  "name": "tijuca_pizza_api",
+  "version": "1.0.0",
+  "description": "Tijuca_Pizza_API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VRegison/Tijuca_Pizza_API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VRegison/Tijuca_Pizza_API/issues"
+  },
+  "homepage": "https://github.com/VRegison/Tijuca_Pizza_API#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-ip-block": "^0.1.2",
+    "joi": "^17.6.4",
+    "joi-translation-pt-br": "0.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.5"
+  }
+}
